@@ -1,0 +1,223 @@
+@import url('https://fonts.googleapis.com/css2?family=Song+Myung&display=swap');
+* {
+    box-sizing: border-box;
+  }
+  body {
+    height : 100vh;
+    font-family: 'Song Myung', serif;
+  }
+  .header {
+    background-color : #f5bf42;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    padding-bottom: 30px;
+  }
+  .header__column {
+    width: 33%;
+    margin-top : 10px;
+  }
+  .header__column span {
+    font-size : 20px;
+    font-weight: bold;
+  }
+  .header__column:first-child {
+    margin-left: 5px;
+  }
+  .header__column:nth-child(2) {
+    display: flex;
+    justify-content: center;
+  }
+  .header__column:last-child {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 5px;
+  }
+  .searching-bar {
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: -15px;
+    margin-bottom: 25px;
+  }
+  .searching-bar__input {
+    width: 90%;
+    height: 30px;
+    border: 0.5px;
+    border-radius : 15px;
+    box-shadow: lemonchiffon 0 0 0 1px;
+  }
+  .main {
+    width: 100%;
+    margin-left: 5%;
+    height: 80%;
+  }
+  .main-top {
+    width: 1000px;
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+  .main__top-title {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 10px 0px 15px 0px;
+  }
+  .main__top-title span {
+    font-size : 30px;
+    font-weight: bold;
+  }
+  .main__top-book {
+    display: flex;
+    width: 100%;
+  }
+  .main__top-book-img img{
+    width: 80%;
+    height: 85%;
+  }
+  .main__top-book-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    position: relative;
+    top: -20px;
+  }
+  .main__top-book-title {
+  }
+  .main__top-book-title {
+    font-weight: bold;
+    font-size: 20px;
+  }
+  .main__top-book-subtitle {
+    font-size: 15px;
+    color: gray;
+    position: relative;
+    top:-15px;
+  }
+  .fa-star {
+    color: orange;
+  }
+  .fa-star-half {
+    color: orange;
+  }
+  .main__top-book-jenre {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .main__top-book-jenre div {
+    width : 45%;
+    height: 35px;
+    background-color: lightyellow;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .main__top-book-jenre div span{
+    font-weight: bold;
+  }
+  .main__top-book-options {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .main__top-book-bookmark {
+    width: 45px;
+    height: 45px;
+    background-color: #f5bf42;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+  }
+  .main__top-book-booknow {
+    width: 120px;
+    height: 45px;
+    background-color: black;
+    color: white;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .main-mid {
+    height: 30%;
+    width: 750px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    flex-wrap: nowrap;
+    position: relative;
+    top: -10px;
+  }
+  .main__mid-title {
+    margin-bottom: 10px;
+  }
+  .main__mid-title span {
+    font-weight: bold;
+    font-size: 25px;
+  }
+  .main__mid-booklist {
+    display: flex;
+    justify-content: space-around;
+  }
+  .main__mid-book {
+    width:70%;
+    height: 100%;
+  }
+  .main__mid-bookimg img {
+    width: 80%;
+    height: 150px;
+    margin-bottom: 10px;
+    border: black 0.5px solid;
+  }
+  .main-bottom {
+    height: 30%
+  }
+  .main__bottom-title {
+    margin-bottom: 10px;
+  }
+  .main__bottom-title span{
+    font-weight: bold;
+    font-size: 25px;
+  }
+  .main__bottom-book {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .main__bottom-book-img {
+    width: 170px;
+    margin-right: 10px;
+  }
+  .main__bottom-book-img img{
+    width: 150px;
+  }
+  .main__bottom-book-info {
+    height: 220px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;    
+    position: relative;
+    top: -20px;
+  }
+  .main__bottom-book-title {
+    font-size: 20px;
+    font-weight: bold;
+  }
+  .main__bottom-book-subtitle {
+    color: gray;
+    font-size: 15px;
+    width:70%;
+    position: relative;
+    top:-20px;
+  }
+  .main__bottom-book-intro {
+    width:70%;
+    position: relative;
+    top: -15px;
+  }
